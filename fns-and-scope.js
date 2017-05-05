@@ -96,8 +96,7 @@ function anonymous() {
   }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
-
- var str = innerFn;
+var innerFn = outerFn();
 
 //Now invoke innerFn.
 innerFn();
